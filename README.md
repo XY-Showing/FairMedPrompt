@@ -27,6 +27,12 @@ This repository evaluates whether prompt engineering can reduce demographic bias
 - Model keys used by scripts: `gpt`, `claude`, `gemini`, `qwen`, `deepseek`. The analysis script maps them to display labels (e.g., GPT-5-Mini, Claude-Sonnet-4, Gemini-2.5-Flash, Qwen-3, DeepSeek-V3.1).
 - Prompt types: `naive` (baseline), `role` (role-playing), `aware` (bias-aware), `cot` (chain-of-thought). Few-shot is analyzed in the downstream analysis; you can extend the runner to add online few-shot if needed.
 
+<p align="center">
+  <img src="outputs/charts/Prompts.pdf" alt="Prompts used in this project." width="720">
+  <br><em>Figure: Overview of FairMedPrompt</em>
+</p>
+
+
 Install:
 
     pip install openai anthropic google-generativeai dashscope tqdm pandas numpy matplotlib seaborn scipy
