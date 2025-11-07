@@ -28,8 +28,8 @@ This repository evaluates whether prompt engineering can reduce demographic bias
 - Prompt types: `naive` (baseline), `role` (role-playing), `aware` (bias-aware), `cot` (chain-of-thought). Few-shot is analyzed in the downstream analysis; you can extend the runner to add online few-shot if needed.
 
 <p align="center">
-  <img src="outputs/charts/Prompts.pdf" alt="Prompts used in this project." width="720">
-  <br><em>Figure: Overview of FairMedPrompt</em>
+  <img src="outputs/charts/Prompts.pdf" alt="Prompts.pdf" width="720">
+  <br><em>Figure: Prompts used in this project.</em>
 </p>
 
 
